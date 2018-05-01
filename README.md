@@ -105,6 +105,6 @@ PRs welcome.
 * [Truffle](https://github.com/trufflesuite/truffle)
 * See also app/ for frontend part.
 
-##License
+## License
 
 MIT
