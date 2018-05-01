@@ -1,0 +1,65 @@
+{
+  "name": "dapp",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerpiper/react_solidity.git"
+  },
+  "author": "Tadas Talaikis <info@talaikis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/powerpiper/react_solidity/issues"
+  },
+  "dependencies": {
+    "compression": "^1.7.2",
+    "cross-env": "^5.1.4",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "grommet": "^1.10.1",
+    "grommet-css": "^1.6.0",
+    "ipfs-mini": "^1.1.2",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-ga": "^2.5.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.4",
+    "react-validation": "^3.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "truffle": "^4.1.5",
+    "truffle-contract": "^3.0.4",
+    "validator": "^9.4.1",
+    "web3": "^1.0.0-beta.34",
+    "web3-utils": "^1.0.0-beta.34"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject",
+    "analyze": "source-map-explorer build/static/js/main.*",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --record"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-import": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "cypress": "^2.1.0",
+    "jest": "^22.4.3",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "less-vars-to-js": "^1.2.1",
+    "react-testing-library": "^2.3.0",
+    "regenerator-runtime": "^0.11.1",
+    "source-map-explorer": "^1.5.0",
+    "style-loader": "^0.20.3"
+  }
+}
