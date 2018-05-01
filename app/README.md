@@ -37,6 +37,6 @@ npm run analyze
 * [IPFS-mini](https://github.com/SilentCicero/ipfs-mini)
 * [Grommet UI](https://github.com/grommet/grommet)
 
-##License
+## License
 
 MIT
