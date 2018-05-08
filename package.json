@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "lint:contract": "solium -d contracts/",
     "lint:contract:fix": "solium -d contracts/ --fix",
@@ -11,10 +11,11 @@
     "geth:rinkeby": "geth --datadir=~/.ethereum --rinkeby --rpc --rpcapi db,eth,net,web3,personal",
     "test": "truffle test",
     "clean": "rimraf -R app/src/contracts/*.json && rimraf -R build/ && rimraf -R contracts/flattened/*.sol",
-    "copy": "cp -R build/contracts/*.json app/src/contracts/",
+    "copy": "rimraf -R app/src/contracts/*.json && cp -R build/contracts/*.json app/src/contracts/",
     "graph": "solgraph ./contracts/flattened/Contract.sol > ./graph/Contract.dot && dot -Tpng ./graph/Contract.dot > ./graph/Contract.png ",
     "flatten": "truffle-flattener contracts/Contract.sol >> contracts/flattened/Contract.sol"
   },
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/powerpiper/react_solidity.git"
@@ -34,9 +35,9 @@
     "chalk": "^2.4.1",
     "cross-env": "^5.1.4",
     "solgraph": "^0.2.6",
-    "truffle": "^4.1.7",
+    "truffle": "^4.1.8",
     "truffle-contract": "^3.0.5",
-    "truffle-hdwallet-provider": "0.0.3"
+    "truffle-hdwallet-provider": "0.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
@@ -58,6 +59,6 @@
     "solidity-coverage": "^0.5.0",
     "solium": "^1.1.7",
     "truffle-hdwallet-provider-privkey": "^0.2.0",
-    "webpack": "^4.6.0"
+    "webpack": "^4.8.1"
   }
 }

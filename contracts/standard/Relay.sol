@@ -1,11 +1,12 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.4.23;
 
 import "../standard/Ownable.sol";
 
 contract Relay is Ownable {
+
     address public currentVersion;
 
-    function Relay(address initAddr) public {
+    constructor(address initAddr) public {
         currentVersion = initAddr;
     }
 

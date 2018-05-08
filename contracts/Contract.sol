@@ -1,4 +1,4 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.4.23;
 
 import "./standard/Ownable.sol";
 import "./standard/Basic.sol";
@@ -10,7 +10,7 @@ contract Contract is Ownable, Basic {
     bytes32 public  tokenName;
     uint8 public decimals;
 
-    function Contract() public {
+    constructor() public {
         symbol = "RSB";
         tokenName = "ReactSolidityBoilerplate";
         decimals = 18;

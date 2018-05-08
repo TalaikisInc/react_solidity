@@ -1,7 +1,7 @@
 {
   "name": "dapp",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.1",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/powerpiper/react_solidity.git"
@@ -31,9 +31,9 @@
     "react-validation": "^3.0.7",
     "redux": "^4.0.0",
     "redux-thunk": "^2.2.0",
-    "truffle": "^4.1.7",
+    "truffle": "^4.1.8",
     "truffle-contract": "^3.0.5",
-    "validator": "^9.4.1",
+    "validator": "^10.1.0",
     "web3": "^1.0.0-beta.34",
     "web3-utils": "^1.0.0-beta.34"
   },
@@ -54,10 +54,10 @@
     "css-loader": "^0.28.11",
     "cypress": "^2.1.0",
     "jest": "^22.4.3",
-    "less": "^3.0.2",
+    "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "less-vars-to-js": "^1.2.1",
-    "react-testing-library": "^2.3.0",
+    "react-testing-library": "^3.0.2",
     "regenerator-runtime": "^0.11.1",
     "source-map-explorer": "^1.5.0",
     "style-loader": "^0.21.0"
