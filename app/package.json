@@ -1,6 +1,6 @@
 {
   "name": "dapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "repository": {
     "type": "git",
@@ -35,7 +35,8 @@
     "truffle-contract": "^3.0.5",
     "validator": "^10.1.0",
     "web3": "^1.0.0-beta.34",
-    "web3-utils": "^1.0.0-beta.34"
+    "web3-utils": "^1.0.0-beta.34",
+    "wix-style-react": "^3.1.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,10 +45,12 @@
     "eject": "react-scripts eject",
     "analyze": "source-map-explorer build/static/js/main.*",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --record"
+    "cypress:run": "cypress run --record",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
+    "@storybook/react": "^3.4.3",
     "babel-core": "^6.26.3",
     "babel-jest": "^22.4.3",
     "babel-plugin-import": "^1.7.0",
@@ -57,9 +60,13 @@
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
     "less-vars-to-js": "^1.2.1",
+    "node-sass": "^4.9.0",
+    "react-styleguidist": "^7.0.11",
     "react-testing-library": "^3.0.2",
     "regenerator-runtime": "^0.11.1",
+    "sass-loader": "^7.0.1",
     "source-map-explorer": "^1.5.0",
-    "style-loader": "^0.21.0"
+    "style-loader": "^0.21.0",
+    "webpack": "^3.11.0"
   }
 }
