@@ -35,7 +35,7 @@
     "chalk": "^2.4.1",
     "cross-env": "^5.1.4",
     "solgraph": "^0.2.6",
-    "truffle": "^4.1.8",
+    "truffle": "^5.0.24",
     "truffle-contract": "^3.0.5",
     "truffle-hdwallet-provider": "0.0.5"
   },
